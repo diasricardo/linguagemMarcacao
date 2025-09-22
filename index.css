@@ -1,0 +1,67 @@
+/* Estilos gerais para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Um cinza claro para o fundo */
+    color: #333; /* Cor de texto principal mais escura */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Estilo para o cabeçalho */
+header h1 {
+    color: #0056b3; /* Um tom de azul para o título principal */
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-weight: normal;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Container para os links de navegação */
+.navigation-menu {
+    display: flex; /* Alinha os links lado a lado */
+    gap: 30px; /* Espaço entre os links */
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha de baixo em telas pequenas */
+}
+
+/* Estilo para cada link */
+.nav-link {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #333;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espaço entre a imagem e o texto */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animação suave */
+}
+
+/* Efeito ao passar o mouse por cima */
+.nav-link:hover {
+    transform: translateY(-5px); /* Levanta o card levemente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+}
+
+/* Estilo para as imagens dentro dos links */
+.nav-link img {
+    width: 80px; /* Tamanho fixo para as imagens */
+    height: 80px;
+}
+
+/* Estilo para o texto dentro dos links */
+.nav-link span {
+    font-size: 1.2rem; /* Tamanho da fonte do texto */
+    font-weight: bold;
+}
