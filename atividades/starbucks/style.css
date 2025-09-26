@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 8vh;
+}
+.menu-direita{
+    display: flex;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-esquerda{
+    display: flex;
+    align-items: center;
+}
